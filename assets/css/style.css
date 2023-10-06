@@ -3,7 +3,6 @@
 header, footer {
     height: 30vh;
     background-color: rgb(202, 202, 202);
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +31,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     width: 300px;
-    background-color: rgb(227, 228, 228);
+    background-color: rgb(246, 246, 246);
     padding: 30px;
 }
 .articleContainer > div {
@@ -45,6 +44,9 @@ h2 {
 }
 button {
     padding: 8px;
+}
+.displayNone {
+    display: none;
 }
 .modalContainer {
     background-color: rgb(113, 112, 112);
